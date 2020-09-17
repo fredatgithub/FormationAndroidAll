@@ -22,11 +22,11 @@ public class DetailsClientActivity extends Activity implements View.OnClickListe
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details_client);
-        // recuperation du numero
+        // recuperation du numéro
         Intent call = this.getIntent();
         int position = call.getIntExtra(CLIENT_ID, 0);
         Client client = ClientSet.INSTANCE.getContenu().get(position);
-        // remmplir l'interface graphique
+        // remplir l'interface graphique
         TextView name = findViewById(R.id.tnameValue);
         name.setText(client.getLastName());
         TextView firstname = findViewById(R.id.tfirstnameValue);
