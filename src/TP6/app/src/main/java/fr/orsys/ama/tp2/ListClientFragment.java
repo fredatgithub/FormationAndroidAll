@@ -7,6 +7,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.database.Cursor;
 import android.os.Bundle;
 
 import android.view.LayoutInflater;
@@ -61,7 +62,9 @@ public class ListClientFragment extends ListFragment {
     public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
         if(listener != null){
-            listener.onClientSelected(position);
+            Cursor cursor = (Cursor) adapter.getItem(position);
+            int idClient = cursor.getInt(0);
+            listener.onClientSelected(idClient);
         }
     }
 
