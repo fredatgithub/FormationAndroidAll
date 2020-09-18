@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/category_parametres" >
+        <ListPreference
+            android:key="names_order_pref"
+            android:summary="Ordre d'affichage du nom et du prénom des clients dans la liste"
+            android:title="Mode d'affichage des clients dans la liste"
+            android:entries="@array/names_order_choice"
+            android:entryValues="@array/names_order_choice_values"/>
+    </PreferenceCategory>
+</PreferenceScreen>
+
