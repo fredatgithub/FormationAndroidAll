@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context=".DetailsClientActivity">
+
+        <TextView
+            android:id="@+id/tname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            style="@style/ClientTextView"/>
+
+        <TextView
+            android:id="@+id/tnameValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ClientTextView.Bold"/>
+
+        <TextView
+            android:id="@+id/tfirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/firstname"
+            style="@style/ClientTextView"/>
+
+        <TextView
+            android:id="@+id/tfirstnameValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ClientTextView.Bold"/>
+
+        <TextView
+            android:id="@+id/tsexe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sexe"
+            style="@style/ClientTextView"/>
+
+        <TextView
+            android:id="@+id/tsexeValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ClientTextView.Bold"/>
+
+        <TextView
+            android:id="@+id/temail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            style="@style/ClientTextView"/>
+
+        <TextView
+            android:id="@+id/temailValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ClientTextView.Bold"/>
+
+        <TextView
+            android:id="@+id/tage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/age"
+            style="@style/ClientTextView"/>
+
+        <TextView
+            android:id="@+id/tageValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ClientTextView.Bold"/>
+
+        <TextView
+            android:id="@+id/tlevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/level"
+            style="@style/ClientTextView"/>
+
+        <TextView
+            android:id="@+id/tlevelValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ClientTextView.Bold"/>
+
+        <TextView
+            android:id="@+id/tactive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/active"
+            style="@style/ClientTextView"/>
+
+        <TextView
+            android:id="@+id/tactiveValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ClientTextView.Bold"/>
+
+        <Button
+            android:id="@+id/bclose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/close"/>
+    </LinearLayout>
+</ScrollView>
