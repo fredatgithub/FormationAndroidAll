@@ -1,24 +1,14 @@
 package fr.orsys.ama.tp2;
 
 import android.app.Activity;
-import android.app.DatePickerDialog;
 import android.app.ListFragment;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ListView;
-
-
-import fr.orsys.ama.tp2.model.ClientSet;
 
 public class ListClientFragment extends ListFragment {
     public static final String AJOUT_CLIENT = "AJOUT_CLIENT";
