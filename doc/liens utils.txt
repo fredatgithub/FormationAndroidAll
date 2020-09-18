@@ -13,3 +13,8 @@ https://fr.wikipedia.org/wiki/HATEOAS
 
 https://square.github.io/retrofit/
 
+https://www.qemu.org
+
+https://www.genymotion.com
+payant
+
