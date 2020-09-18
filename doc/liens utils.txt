@@ -18,3 +18,14 @@ https://www.qemu.org
 https://www.genymotion.com
 payant
 
+https://en.wikipedia.org/wiki/HATEOAS
+
+StarWar API
+https://swapi.dev
+
+https://sqlite.org/datatype3.html
+
+https://borntocode.fr/android-studio-raccourcis-claviers-productivite/
+
+https://abhiandroid.com/ui/switch#:~:text=Setting%20Text%20In%20Switch%20Using%20Java%20class%3A&text=via%20java%20class.-,%2F*Add%20in%20Oncreate()%20funtion%20after%20setContentView()*%2F,setText("switch")%3B
+
