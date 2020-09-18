@@ -1,7 +1,7 @@
 # FormationAndroidAll
 Formation Android 
 
-tous les projets nécessitent le plugin Lombok
+Tous les projets nécessitent le plugin Lombok
 
 Allez dans File - Settings - Plugins
 
