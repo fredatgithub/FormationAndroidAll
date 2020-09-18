@@ -11,3 +11,5 @@ https://restlet.talend.com/documentation/tutorials/2.4/
 
 https://fr.wikipedia.org/wiki/HATEOAS
 
+https://square.github.io/retrofit/
+
