@@ -29,7 +29,8 @@
             android:ems="10"
             android:hint="@string/name"
             android:inputType="textPersonName"
-            android:nextFocusForward="@id/efirstname" />
+            android:nextFocusForward="@id/efirstname"
+            android:focusableInTouchMode="true"/>
 
         <TextView
             android:id="@+id/tfirstname"
