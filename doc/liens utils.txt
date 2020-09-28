@@ -1,4 +1,5 @@
 https://jakewharton.github.io/butterknife/
+
 https://developer.android.com/topic/libraries/architecture/livedata#java
 
 https://fr.wikipedia.org/wiki/Apache_Derby
