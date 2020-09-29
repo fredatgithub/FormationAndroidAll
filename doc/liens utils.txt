@@ -30,3 +30,33 @@ https://borntocode.fr/android-studio-raccourcis-claviers-productivite/
 
 https://abhiandroid.com/ui/switch#:~:text=Setting%20Text%20In%20Switch%20Using%20Java%20class%3A&text=via%20java%20class.-,%2F*Add%20in%20Oncreate()%20funtion%20after%20setContentView()*%2F,setText("switch")%3B
 
+intent = intention de changer de page
+qui peut utiliser un numéro de téléphone
+AVD = Android Virtual Device
+ADB = Android Debug Bridge
+https://www.genymotion.com/
+http://facebook.github.io/stetho/#download
+https://github.com/facebook/stetho
+driver Samsung = KIES
+https://developer.android.com/studio/command-line/logcat
+expresso est l'outil de gestion des manipulations pour les tests unitaires, c'est un framework
+il y a 4 types de composants (activité = vue, service, content provider (SQLlite, bdd), broadcast receiver (réception info par réseaux))
+https://square.github.io/picasso/
+gradle = compilateur comme conda de Python ou Maeven
+un service n'a pas d'écran (ie accès réseau)
+R est la classe des ressources
+R a d'autant de propriétés que de sous-répertiores dans le dossier RES
+Il n'y a qu'un menuOption, celui du bas
+Log.i("fr.orsys.ama", "MainActivity::onCreate");
+spring mobile est un framework pour sauvegarder l'état des variables
+https://androidstudio.googleblog.com/2019/10/android-emulator-hypervisor-driver-for.html
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+</ScrollView>
+livedata:
+https://developer.android.com/topic/libraries/architecture/livedata
